@@ -1,5 +1,5 @@
-const Reviews = require('../model/reviews');
-const Registrants = require('../model/registrants');
+var reviews = require('../model/reviews');
+var registrants = require('../model/registrants');
 
 async function reviews(req, res){
     try {

@@ -5,7 +5,7 @@ const connection = require('./app/model/index')
 
 // init express server and router
 const app = express();
-const mainRouter = require('./app/routes');
+const mainRouter = require('./app/route');
 require('dotenv').config()
 
 app.use(cors());
